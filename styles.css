@@ -1,0 +1,295 @@
+body{
+
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+
+}
+
+#container-div{
+    margin-top: 10rem;
+}
+
+#main-div {
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #97CFD9;
+
+}
+
+#i-div {
+    background-color: #97CFD9;
+    width: 400px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+input {
+    background-color: #252525;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 70px;
+    width: 17.3rem;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    display: block;
+    margin: auto;
+    position: relative;
+    right: 9.5px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+
+.operators {
+
+    position: relative;
+    bottom: 2.6px;
+    right: 5px;
+    margin: auto;
+
+}
+
+.plus {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    left: 3px;
+    background-color: #DCDBE0;
+
+}
+
+.minus {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 3px;
+    background-color: #DCDBE0;
+
+
+}
+
+
+
+.divide {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 12px;
+    background-color: #DCDBE0;
+
+}
+
+
+
+.multiply {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 7px;
+    background-color: #DCDBE0;
+
+}
+
+
+.num-1 {
+
+    position: relative;
+    bottom: 9px;
+    right: 5px;
+    margin: auto;
+
+
+}
+
+.seventh {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    left: 3px;
+    bottom: 58.5px;
+    background-color: white;
+}
+
+
+.eath {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 3px;
+    bottom: 58.5px;
+    background-color: white;
+
+
+}
+
+.ninth {
+
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 7px;
+    bottom: 58.5px;
+    background-color: white;
+}
+
+
+.equal{
+
+    height: 158px;
+    width: 70px;
+    font-size: 30px;
+    position: relative;
+    right: 12px;
+    background-color: #F98866;
+    margin: auto;
+
+
+}
+
+.num-2 {
+
+    position: relative;
+    right: 41px;
+    bottom: 18px;
+    margin: auto;
+
+
+}
+
+.fourth {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    left: 3px;
+    bottom: 7.2rem;
+    background-color: white;
+
+}
+
+.fifth {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 3px;
+    bottom: 7.2rem;
+    background-color: white;
+
+
+
+}
+
+.sixth {
+
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 8px;
+    bottom: 7.2rem;
+    background-color: white;
+}
+
+
+.num-3 {
+
+    position: relative;
+    bottom: 8.7rem;
+    ;
+    right: 41px;
+    margin: auto;
+
+
+}
+
+.one {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    left: 3px;
+    background-color: white;
+
+
+}
+
+.two {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 3px;
+    background-color: white;
+}
+
+.three {
+
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 8px;
+    background-color: white;
+}
+
+.num-4 {
+
+    position: relative;
+    right: 41px;
+    bottom: 9.1rem;
+    margin: auto;
+
+
+}
+
+.zero {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    left: 3px;
+    background-color: white;
+}
+
+.dot {
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 3px;
+    background-color: white;
+}
+
+
+
+.clear {
+
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    right: 8px;
+    background-color: white;
+    margin: auto;
+    margin: auto;
+
+}

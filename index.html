@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div id="container-div">
+    <div id="i-div">
+        <h1>CALCULATOR</h1>
+        <input type="text" id="inputDisplay" disabled />
+    </div>
+    <div id="main-div">
+
+        <table class="operators">
+            <tr>
+                <td><button class="plus" onclick="addVal('+')">+</button></td>
+                <td><button class="minus" onclick="addVal('-')">-</button></td>
+                <td><button class="multiply" onclick="addVal('*')">*</button></td>
+                <td><button class="divide" onclick="addVal('/')">/</button></td>
+
+            </tr>
+        </table>
+        <table class="num-1">
+            <tr>
+                <td><button class="seventh" onclick="addVal('7')">7</button></td>
+                <td><button class="eath" onclick="addVal('8')">8</button></td>
+                <td><button class="ninth" onclick="addVal('9')">9</button></td>
+                <td><button class="equal" onclick="eQual('=')">=</button></td>
+            </tr>
+        </table>
+
+        <table class="num-2">
+            <tr>
+                <td><button class="fourth" onclick="addVal('4')">4</button></td>
+                <td><button class="fifth" onclick="addVal('5')">5</button></td>
+                <td><button class="sixth" onclick="addVal('6')">6</button></td>
+            </tr>
+        </table>
+
+        <table class="num-3">
+            <tr>
+                <td><button class="one" onclick="addVal('1')">1</button></td>
+                <td><button class="two" onclick="addVal('2')">2</button></td>
+                <td><button class="three" onclick="addVal('3')">3</button></td>
+            </tr>
+        </table>
+
+        <table class="num-4">
+            <tr>
+                <td><button class="zero" onclick="addVal('0')">0</button></td>
+                <td><button class="dot" onclick="back('back')"><i class="fa fa-arrow-left"
+                            aria-hidden="true"></i></button></td>
+                <td><button class="clear" onclick="clrCal('C')">C</button></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
